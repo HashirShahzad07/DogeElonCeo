@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Icons & Symbols -->
+    <link rel="stylesheet" href="icons/css/font-awesome.css">
+    <link rel="stylesheet" href="icons/css/brands.css">
+    <link rel="stylesheet" href="icons/css/solid.css">
+    <link rel="stylesheet" href="icons/css/all.css">
+
+    <script src="npm/web3@latest/dist/web3.min.js"></script>
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="moralis@1.3.5/dist/moralis.js"></script>
+    <script src="bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/swapstyle.css">
+
+    <script src="js/index.min.js"></script>
+    <script src="js/eTonumber.js"></script>
+    <script src="ajax/libs/big.js/2.3.0/big.min.js"></script>
+
+
+    <!-- Animate On Scrol CSS -->
+    <link rel="stylesheet" href="css/aos.css">
+
+    <!-- custom_-_css_-_file -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/timeline.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- page_-_icon -->
+    <link class="rounded-circle" rel="shortcut icon" href="./logocn.jpg">
+
+    <!-- page_-_title -->
+    <title>DOGELON CEO</title>
+</head>
+
+<body>
+
+    <style>
+        body{
+            width: 100%;
+            height: 100%;
+            padding: 0%;
+            margin: 0%;
+            overflow-x: hidden;
+        }
+    </style>
+    <div id="particles-js" style=" position: absolute;top: 0;left: 0;height: 100vh;width: 100vw; "></div>
+
+
+    <header>
+        <a href="#" class="logo"><img class=" rounded-circle w-25"  src="./logocn.jpg" alt=""></a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu navbar-right">
+            <li><a href="#about" class="active" onclick="toggleMenu();">project</a></li>
+            <li><a href="#tokenomics" onclick="toggleMenu();">tokenomics</a></li>
+            <li><a href="#roadmap" onclick="toggleMenu();">roadmap</a></li>
+            <li><a href="#benefits" onclick="toggleMenu();">benefits</a></li>
+            <!-- <li><a href="#" onclick="toggleMenu();">how to buy</a></li> -->
+            <li><a href="#faq-section" onclick="toggleMenu();">faq</a></li>
+            <li><a target="_blank" href="https://t.me/dogelonceo" class="btn-1" onclick="toggleMenu();">telegram</a></li>
+        </ul>
+    </header>
+
+    <!-- home_-_section_-_starts -->
+    <section class="home" id="home">
+        <div class="home-container">
+            <div class="row">
+                <div class="home-text" data-aos="fade-up" data-aos-duration="1500">
+                    <h1>DISCLAIMER: DO NOT BUY IF YOU DON’T WANT TO BE RICH</h1>
+                    <h2>Sincerely, DOGELON CEO<br></h2>
+                    <div class="home-btn-container">
+                        <a href="https://t.me/dogelonceo" target="_blank" class="btn-1">telegram</a>
+                        <a href="https://pancakeswap.finance/swap?outputCurrency=0xbB94Fd42CffeF0ADb8BcDF0a38a011C81Af8fC8c"target="_blank" class="btn-1">buy token</a>
+                        <a href="https://poocoin.app/tokens/0xbb94fd42cffef0adb8bcdf0a38a011c81af8fc8c" class="btn-1">Live Chart</a>
+                        <a class="mt-5 text-white-50" >0xbb94fd42cffef0adb8bcdf0a38a011c81af8fc8c</a>
+                    </div>
+                </div>
+                <div class="home-img">
+                    <div class="h-img-box">
+                        <img class="rounded-circle w-100" src="./logoc.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- home_-_section_-_ends -->
+
+    <!-- about_-_section_-_starts -->
+    <section class="about" id="about">
+
+        <div class="container">
+            <div class="row">
+                <div class="about-text" data-aos="fade-up" data-aos-duration="1500">
+                    <h2>about <span>DOGELON CEO</span></h2>
+                    <h3></h3>
+                    <p>
+                        Welcome to DOGELON CEO. A cryptocurrency designed for all people no matter who you are we will give you a fast and safe experience using our network DOGELON CEO will be designed for investors to easily swap, make purchases and trade tokens over different blockchain using our NANO wallet.
+                    </p>
+                </div>
+                <div class="about-img" data-aos="flip-up" data-aos-duration="2000">
+                    <div class="a-img-box">
+                        <img src="./logoc.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about_-_section_-_ends -->
+
+    <!-- tokenomics_-_section_-_starts -->
+    <section class="tokenomics" id="tokenomics">
+
+        <div class="wide-container">
+
+            <div class="row justify-content-center">
+
+                <div class="heading">
+                    <h2 data-aos="fade-down" data-aos-duration="1500">our tokenomics</h2>
+                    <center>
+                        <div class="heading-udl" data-aos="fade-up" data-aos-duration="2000"></div>
+                    </center>
+                    <h3>When a transaction is executed, an automatic fee of 11% is in effect. this fee is split into 3 sources to help the project with marketing and development for our upcoming utilities!</h3>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <!-- tk_-_item_-_starts -->
+                <div class="token-item" data-aos="zoom-in-up" data-aos-duration="1500">
+
+                    <div class="token-item-inner">
+                        <center>
+                            <div class="tk-icon-container">
+                                <p class="fas fa-burn"></p>
+                            </div>
+                        </center>
+                        <h2 class="mt-4">Liquidity Pool  3%</h2>
+                        <h3></h3>
+                    </div>
+                </div>
+                <!-- tk_-_item_-_ends -->
+                <!-- tk_-_item_-_ends -->
+                <!-- tk_-_item_-_starts -->
+                <div class="token-item" data-aos="zoom-in-up" data-aos-duration="1500">
+                    <div class="token-item-inner">
+                        <center>
+                            <div class="tk-icon-container">
+                                <p class="fas fa-bullhorn"></p>
+                            </div>
+                        </center>
+                        <h2 class="mt-4">Marketing  5%</h2>
+                        <h3></h3>
+                    </div>
+                </div>
+                <div class="token-item" data-aos="zoom-in-up" data-aos-duration="1500">
+                    <div class="token-item-inner">
+                        <center>
+                            <div class="tk-icon-container">
+                                <p class="fas fa-file-alt"></p>
+                            </div>
+                        </center>
+                        <h2 class="mt-4">Buy/Sell Tax 8%</h2>
+                        <h3></h3>
+                    </div>
+                </div>
+                <!-- tk_-_item_-_ends -->
+            </div>
+        </div>
+    </section>
+    <!-- tokenomics_-_section_-_ends -->
+
+   
+
+
+    <!-- TimeLine Section Starts -->
+    <section class="roadmap" id="roadmap">
+        <div class="row">
+            <div class="heading">
+                <h2 data-aos="fade-down" data-aos-duration="1500">the roadmap</h2>
+                <center>
+                    <div class="heading-udl" data-aos="fade-up" data-aos-duration="1500"></div>
+                </center>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="center-line">
+                <a href="#" class="scroll-icon"><i class="fas fa-caret-up"></i></a>
+            </div>
+            <div class="row row-1">
+                <section data-aos="fade-up" data-aos-duration="1000">
+                    <i class="icon fas fa-home"></i>
+                    <div class="details">
+                        <span class="title">Phase 1:</span>
+                    </div>
+                    <!-- <h3>LAUNCH</h3> -->
+                    <ul>
+                        <li>Brand Formation</li>
+                        <li> Website Design and Publishing</li>
+                        <li>Creation of Social Media accounts</li>
+                            <li>Preparation and publication of the Whitepaper</li>
+                            <li>Preparing video promotions</li>
+                        
+                    </ul>
+                </section>
+            </div>
+            <div class="row row-2">
+                <section data-aos="fade-up" data-aos-duration="1000">
+                    <i class="icon fas fa-star"></i>
+                    <div class="details">
+                        <span class="title">Phase 2:</span>
+                    </div>
+                    <!-- <h3>PROGRESSION</h3> -->
+                    <ul>
+                        <li>Website Launch</li>
+
+                            <li> Social Media</li>
+                          
+                                <li>  FairLaunch</li>
+                          
+                                    <li>  buy and Burn 15% </li>
+                          
+                                        <li> First stage marketing (adds/calls/trending)</li>
+                        <li>DOGELON CEO community app</li>
+                       
+                    </ul>
+                </section>
+            </div>
+            <div class="row row-1">
+                <section data-aos="fade-up" data-aos-duration="1000">
+                    <i class="icon fas fa-map-marker-alt"></i>
+                    <div class="details">
+                        <span class="title">Phase 3</span>
+                    </div>
+                    <!-- <h3>DIVERSIFICATION</h3> -->
+                    <ul>
+                        <li>Release of DCEO academy be your own boss !!! 
+
+                            <li> Aggressive Marketing Campaigns </li>
+                             
+                                <li>  CoinMarketCap Listing</li>
+                            
+                                    <li> CoingGecko Listing</li>
+                            
+                                        <li> First CEX listing</li>
+                            
+                                            <li> To be continued !!!</li>
+                        
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </section>
+    <!-- TimeLine Section Ends -->
+
+    <!-- vision_-_section_-_starts -->
+    <section class="vision">
+        <div class="container">
+            <div class="heading">
+                <h2 data-text="ANTIWHALE SYSTEM">ANTIWHALE SYSTEM</h2>
+            </div>
+            <div class="row">
+                <div class="vision-text">
+                    <p>
+                        To make sure we dont have people with too big of a wallet which can damage the project we decided to implement an antiwhale system.
+                    </p>
+                  
+                        
+                    <p  style="font-size: 20px;font-weight: 600;">Name: <span data-text="">DOGELON CEO</span></p>
+                     <p style="font-size: 20px;font-weight: 600;">Supply:  <span data-text=""> 10,000,000,000</span></p>
+            </div>
+        </div>
+    </section>
+    <section class="vision">
+        <div class="container">
+            <div class="heading">
+                <h2 data-text="OUR PURPOSE">OUR PURPOSE</h2>
+            </div>
+            <div class="row">
+                <div class="vision-text">
+                    <p>
+                        Our goal is to create the biggest and safest crypto network around the world with our own digital Crypto Wallet, with 7 layers of protection and very low fees on any transaction. the wallet will be the world's most secure and fastest wallet, with over 10 different blockchains.
+                    </p>
+                        
+            </div>
+        </div>
+    </section>
+     <section class="vision">
+        <div class="container">
+            <div class="heading">
+                <h2 class="ms-2" data-text="Quick Guide">Quick Guide</h2>
+            </div>
+            <div class="row">
+                <div class="vision-text">
+
+                  
+                    <p>
+                        <ol class="p-3" style="color:white">
+                            <li class="p-3" style="list-style:disc; "><h2>Create MetaMask wallet</h2>
+                                Create a MetaMask Wallet using a phone or desktop computer. This will allow you to buy, sell and send $DCEO tokens.</li>
+                                <li class="p-3" style="list-style:disc; "><h2> Send BNB </h2>
+                                    You can buy Binance Coin (BNB) on centralized exchanges such as Binance. Make sure to use the BSC network when transfering BNB.      
+                                    <li class="p-3" style="list-style:disc; "><h2>Connect wallet </h2>
+                                        Use the PancakeSwap exchange by connecting your MetaMask wallet to the site by clicking the 'Connect' button.
+
+                                        <li class="p-3" style="list-style:disc; "><h2>Swap BNB </h2>
+                                            You can start swapping your BNB as soon as the transaction is complete! Enter the token address of DCEO in PancakeSwap to swap                  
+                         </ol>   
+                    </p>
+                        
+            </div>
+        </div>
+    </section>
+    <section>
+    <!-- vision_-_section_-_ends -->
+
+    <!-- benefits_-_section_-_starts -->
+    <!-- benefits_-_section_-_ends -->
+
+    <!-- plan_-_section_-_starts -->
+    <!-- plan_-_section_-_starts -->
+
+    <!-- faq_-_sections_-_starts -->
+    <!-- faq_-_sections_-_ends -->
+
+    <!-- swap_-_section_-_starts --> 
+     <section class="swap bg-secondary " id="swap">
+        <div class="container">
+            <div class="row py-4">
+                <div class="col col-sm-4  offset-md-4">
+
+                    <iframe
+                    src="https://poocoin.app/embed-swap?outputCurrency=0xbb94fd42cffef0adb8bcdf0a38a011c81af8fc8c"
+                    width="100%"
+                    height="550"
+                  ></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="js/main.js"></script> -->
+    <!-- swap_-_section_-_ends
+
+          swap_-_section_-_starts --> 
+     <section class="swap bg-secondary " id="swap">
+        <div class="container">
+            <div class="row py-7">
+                <div class="col col-sm-8  offset-sm-1">
+
+                    <iframe
+                    src="https://www.geckoterminal.com/bsc/pools/0xea6F381A973A051d065ff326656a266144414f40?utm_source=telegram&utm_medium=bobbybuybot&utm_campaign=bobbybuybot"
+                    width="100%"
+                    height="700"
+                  ></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="js/main.js"></script> -->
+
+</section>
+
+
+    <!-- contact_-_section_-_starts -->
+    <section class="contact" id="contact">
+        <div class="reveal">
+            <div class="content">
+                <div class="contentBx w50">
+                    <h2>DOGELON CEO</h2>
+                    <p>Stay Connected to DOGELON CEO</p>
+                    <h4>
+                        <!-- <a href="" target="blank"><i class="fas fa-envelope"></i></a> -->
+                        <a href="https://t.me/dogelonceo" target="_blank"><i class=" fab fa-telegram "></i></a>
+                        <a href="https://twitter.com/dogelon_ceo" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </h4>
+                    <a href="hhttps://t.me/dogelonceo" target="_blank" class="contact-btn">telegram</a>
+                </div>
+                <div class="w50 ">
+                    <div class="contact-links"><a href="#about"><i class="fas fa-home" style="margin-right: 7px;"></i> project</a></div>
+                    <div class="contact-links"><a href="#tokenomics"><i class="fas fa-file-alt" style="margin-right: 7px;"></i> tokenomics</a></div>
+                    <div class="contact-links"><a href="#roadmap"><i class="fas fa-rocket" style="margin-right: 7px;"></i> Roadmap</a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="copyright ">
+        <p>Copyright © 2022 DOGELON CEO Finance. All Right Reserved.</p>
+    </div>
+    <!-- contact_-_section_-_ends -->
+
+
+
+
+
+
+
+
+
+
+    <!-- Link AOS Js file -->
+    <script src="js/aos.js"></script>
+    <!-- custom_-_js_-_file -->
+    <script src="js/script.js"></script>
+    <script src="particles.js"></script>
+    <script src="particles.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
